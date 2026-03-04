@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Web de Inteligência Artificial</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Dashboard de Inteligência Artificial</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#conceitos">Conceitos</a></li>
+          <li><a href="#chatbot">Chatbot</a></li>
+          <li><a href="#analise">Análise de Texto</a></li>
+          <li><a href="#graficos">Gráficos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Seção Home -->
+    <section id="home" class="hero">
+      <div class="container">
+        <h2>Inteligência Artificial no Seu Dia a Dia</h2>
+        <p>Explore como a IA está transformando o mundo e aprenda seus conceitos fundamentais.</p>
+        <button class="btn btn-primary" onclick="scrollToSection('conceitos')">Explorar IA</button>
+      </div>
+    </section>
+
+    <!-- Seção Conceitos -->
+    <section id="conceitos" class="conceitos">
+      <div class="container">
+        <h2>Conceitos Fundamentais de IA</h2>
+        <div class="cards-grid">
+          <!-- Card 1: Machine Learning -->
+          <div class="card">
+            <h3>🧠 Machine Learning</h3>
+            <p>Algoritmos que aprendem padrões a partir dos dados.</p>
+            <div class="card-details">
+              <strong>Aplicações:</strong>
+              <ul>
+                <li>Recomendações de filmes</li>
+                <li>Detecção de fraudes</li>
+                <li>Diagnósticos médicos</li>
+                <li>Carros autônomos</li>
+              </ul>
+            </div>
+          </div>
+     <!--card 2: chatbots-->
+     <div class="card">
+      <h3>💭chatbots</h3>
+      <p> Asistentes virtuais que conversam com usuario.</p>
+      <div class="detalis">
+        <strong>benefícios:</strong>
+        <ul>
+          <li>Atendimento 24/7</li>
+          <li>Resposta instantãneas</li>
+          <li>Redução do Custos</li>
+          <li>Experiência Personalizada</li>
+     <!--Card 3: Reconhecimento de imagens-->
+     <div claas="Card"^></div>
+      <h3>👁Reconhecimento de iamagens</h3>
+      <p>IA que identifica objetos,faces e padrões de imagens</p>
+      <div class="detalis">
+       <strong>Usos:</strong>
+       <ul>
+        <li>Reconhecimento Facial</li>
+        <li>Diagnóstico de doenças</li>
+        <li>Segurança e Vigilancia</li>
+        <li>Redes sociais</li>
+      <ul>
+         </div>
+         
+     <!--Card 4: Processamento de Linguagem-->
+     <div class="card">
+      <h3>📝Processamento de Linguagem</h3>
+      <p>IA que compreende e gera texto humano</p>
+      <div class="details">
+      <Strong>Usos:</Strong>
+      <ul>
+        <li>Tradução automática</li>
+        <li>Analise do Sentimento</li>
+        <li>Resumo de textos</li>
+        <li>Assistente de voz</li>
+      </ul>
+      </div>
+     </div>
+
+    </section>
+    <!--Seção Chatbot-->
+    <section id="chatbot" class="chatbot">
+     <div class="conteiner"></div>
+      <h2>💬simulador de chatbot</h2>
+      <div class="chatbot-container">
+      <div class="chat-box">
+      <div id="chat mansagem" class="chat-menssagens">
+      <div class="message bot-menssage">
+      <p>Olá sou um assistente de IA. como posso ajuda-lo?</p>
+      </div>
+     </div>
+     </div>
+     <div class="chat-input-area">
+      <input type="text" id="chatinput" placeholder="digite sua mensagem..." onkeypress="enviarmensagemchat(event)">
+      <button class="btn btn-primary" onclick="enviarMensagemChat()">enviar</button>
+     </div>
+     </div>
+    </div>
+
+
+
+    </section>
